@@ -1,5 +1,6 @@
 import React from 'react';
 import  { Link }   from 'react-router-dom'
+import Tutors from './tutors';
 
 const Homepage = () => <div>
     <div className='header'>
@@ -22,6 +23,7 @@ const Homepage = () => <div>
             <h2>Our Tutors</h2>
             <p>We have more than 100 tutors from various disciplines ready to match with you</p>
         </div>
+        <Tutors/>
         <div className='footer'>
             <Link to='/' className='link'>See all Tutors</Link>
         </div>

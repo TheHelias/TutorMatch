@@ -42,9 +42,9 @@ body{
       width: 130px;
       margin-left: 10px;
     }
-  }
+}
 
-  .header_links {
+.header_links {
     float: right;
     .child {
         font-size: 15px;
@@ -94,4 +94,63 @@ body{
       align-items: center;
       justify-content: center;
     }
-  }
+}
+
+
+.tutors_div_1 {
+    display: flex;
+    span{
+      margin: 0px 5px 0px 5px;
+      padding: 2px;
+      font-size: 14px;
+    }
+    button {
+      background: $dark-grey;
+      padding: 4px 6px 4px 6px;
+      border: 1px solid #bdbdbd;
+      outline: none;
+      font-size: 10px;
+    }
+    
+    button:hover {
+      background-color: $button-color;
+      color: white;
+    }
+    button:active {
+        background: $button-active-color;
+    }
+}
+  
+.tutors_div_2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .child_div {
+      border-radius: 5px;
+      background-color: $dark-grey;
+      margin: 15px;
+      height: 380px;
+      width: 260px;
+      .tutor_name {
+        color: black;
+        font-weight: bold;
+        margin-left: 12px; 
+      }
+      p, h4 {
+          margin-left: 12px;
+      }
+      span {
+        margin-left: 12px;
+        background: white;
+        border-radius: 4px;
+        padding: 6px;
+      }
+      .student_photo {
+        margin-left: 12px;
+        width: 40px;
+        border-radius: 50%;
+      }
+    }
+}
+  
